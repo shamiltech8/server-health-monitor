@@ -1,0 +1,54 @@
+============================
+SERVER HEALTH MONITOR
+============================
+
+DATE & TIME
+Tuesday 26 May 2026 09:44:01 AM IST
+
+CPU USAGE
+%Cpu(s):  6.7 us,  4.0 sy,  0.0 ni, 89.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+
+CPU USAGE ALERT
+CPU Usage is Normal - 13%
+
+MEMORY ALERT
+Memory Usage is Normal - 41%
+
+SERVICE CHECK
+cron service is running
+ssh service is running
+NetworkManager service is running
+
+MEMORY USAGE
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.5Gi       308Mi       425Mi       1.9Gi       1.7Gi
+Swap:             0B          0B          0B
+
+DISK USAGE
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           379M  2.5M  376M   1% /run
+/dev/sdb5        98G   14G   80G  15% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+efivarfs        384K  347K   33K  92% /sys/firmware/efi/efivars
+/dev/sda1        96M   32M   65M  33% /boot/efi
+tmpfs           379M  104K  379M   1% /run/user/1000
+
+SYSTEM UPTIME
+ 09:44:03 up 15 min,  1 user,  load average: 0.78, 1.02, 1.05
+
+TOP 5 PROCESSES
+    PID    PPID CMD                         %MEM %CPU
+   3152    2459 /snap/firefox/8274/usr/lib/ 13.3 21.5
+   3649    3446 /snap/firefox/8274/usr/lib/ 13.8 21.1
+   2459    2280 /usr/bin/gnome-shell         6.8 10.5
+   5606     868 /usr/sbin/CRON -f -P         0.1  1.0
+   3483    3446 /snap/firefox/8274/usr/lib/  3.5  0.6
+
+INTERNET CHECK
+Internet is Connected
+
+DISK WARNING CHECK
+Disk usage is under control
+
+============================
