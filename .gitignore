@@ -1,3 +1,4 @@
 logs/
 *.log
-*.save
+*.save__pycache__/
+*.pyc

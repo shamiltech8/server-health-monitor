@@ -3,7 +3,7 @@ from memory_monitor import memory_check
 from disk_monitor import disk_check
 from uptime_monitor import uptime_check
 from service_monitor import service_check
-
+from log_cleanup import cleanup_logs
 
 print("SYSTEM MONITOR")
 
@@ -17,3 +17,5 @@ disk_check()
 uptime_check()
 
 service_check()
+
+cleanup_logs()

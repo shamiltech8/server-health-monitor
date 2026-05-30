@@ -12,3 +12,6 @@ def cpu_check():
         print("WARNING: High CPU Usage")
     else:
         print("CPU Usage is Normal")
+
+
+
