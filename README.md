@@ -1,107 +1,123 @@
 # Server Health Monitor
 
-A Linux-based server monitoring and alerting system built using Bash scripting.
+A Linux-based Server Health Monitoring System developed using Bash and Python. This project monitors system resources, checks service status, generates logs, and automates basic server health management tasks.
 
 ## Features
 
-- CPU monitoring
-- Memory monitoring
-- Disk usage monitoring
-- Service monitoring
-- Internet connectivity check
-- Automatic log generation
-- Alert system
-- Email notifications
-- Cron automation
-- Multi-script architecture
+### Bash Monitoring System
+- CPU Usage Monitoring
+- Memory Usage Monitoring
+- Service Status Monitoring
+- Disk Usage Monitoring
+- Internet Connectivity Check
+- System Uptime Monitoring
+- Automatic Log Generation
+- Automatic Old Log Cleanup
 
-## Technologies Used
-
-- Linux
-- Bash scripting
-- Cron
-- Mailutils
-- Systemctl
-- Mpstat
+### Python Monitoring System
+- CPU Monitoring
+- Memory Monitoring
+- Disk Monitoring
+- Service Monitoring
+- System Uptime Monitoring
+- Modular Monitoring Architecture
+- Log Cleanup Module
 
 ## Project Structure
 
 ```text
 server_health_monitor/
-├── cpu_monitor.sh
-├── memory_monitor.sh
-├── service_monitor.sh
-├── main_monitor.sh
+├── bash_monitor/
+│   ├── monitor.sh
+│   ├── cpu_monitor.sh
+│   ├── memory_monitor.sh
+│   ├── service_monitor.sh
+│   ├── main_monitor.sh
+│   └── monitor_backups.sh
+├── python_monitor/
+│   ├── main_monitor.py
+│   ├── cpu_monitor.py
+│   ├── memory_monitor.py
+│   ├── disk_monitor.py
+│   ├── uptime_monitor.py
+│   ├── service_monitor.py
+│   └── log_cleanup.py
 ├── logs/
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## How To Run
+## Technologies Used
 
-Make scripts executable:
+- Linux
+- Bash Scripting
+- Python
+- Git
+- GitHub
+- psutil
+
+## Installation
+
+Clone the repository:
 
 ```bash
-chmod +x *.sh
+git clone https://github.com/shamiltech8/server-health-monitor.git
+cd server-health-monitor
 ```
 
-Run monitoring system:
+Install Python dependency:
 
 ```bash
-./main_monitor.sh
+pip install psutil
 ```
 
-## Sample Features
+## Running the Bash Version
 
-### CPU Monitoring
-
-Checks CPU usage and triggers alerts when usage exceeds threshold.
-
-### Memory Monitoring
-
-Calculates memory usage percentage and generates warnings.
-
-### Service Monitoring
-
-Checks important services like:
-- cron
-- ssh
-- NetworkManager
-
-### Logging System
-
-Stores monitoring reports inside:
-```text
-logs/
+```bash
+cd bash_monitor
+./monitor.sh
 ```
 
-### Email Alerts
+## Running the Python Version
 
-Automatically sends email notifications for:
-- High CPU usage
-- High memory usage
-- Service failures
+```bash
+cd python_monitor
+python3 main_monitor.py
+```
 
-## Skills Learned
+## Sample Checks Performed
 
-- Linux administration
-- Bash scripting
-- Automation
-- Monitoring systems
-- Logging
-- Debugging
-- Cron jobs
-- Modular scripting
-- Git/GitHub workflow
+- CPU Usage Threshold Monitoring
+- Memory Usage Threshold Monitoring
+- Disk Space Monitoring
+- Service Health Verification
+- System Uptime Reporting
+- Log File Management
+
+## Learning Outcomes
+
+This project helped me learn:
+
+- Linux Administration Basics
+- Bash Scripting
+- Python Scripting
+- System Monitoring Concepts
+- Service Management with systemctl
+- Log Management
+- Git and GitHub Workflow
+- Modular Project Design
 
 ## Future Improvements
 
-- Python monitoring version
-- Docker containerization
-- Web dashboard
-- Database logging
-- Real-time monitoring
-- Grafana integration
+- Email Alert System
+- CSV Report Export
+- Configuration File Support
+- Dashboard Integration
+- Docker Deployment
+- Web-Based Monitoring Interface
 
 ## Author
 
 MUHAMMED SHAMIL KT
+
+GitHub: https://github.com/shamiltech8
