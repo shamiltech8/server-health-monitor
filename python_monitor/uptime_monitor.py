@@ -1,0 +1,16 @@
+import psutil
+import time
+
+def uptime_check():
+
+    print("\nUPTIME MONITOR")
+
+    boot_time = psutil.boot_time()
+
+    current_time = time.time()
+
+    uptime_seconds = current_time - boot_time
+
+    uptime_hours = uptime_seconds // 3600
+
+    print(f"System Uptime: {uptime_hours} Hours")
