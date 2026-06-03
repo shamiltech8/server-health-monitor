@@ -1,5 +1,6 @@
 import psutil
 import time
+from logger import write_log
 
 def uptime_check():
 
@@ -14,3 +15,4 @@ def uptime_check():
     uptime_hours = uptime_seconds // 3600
 
     print(f"System Uptime: {uptime_hours} Hours")
+    write_log(f"System Uptime: {uptime_hours} Hours")

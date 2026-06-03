@@ -4,6 +4,7 @@ from disk_monitor import disk_check
 from uptime_monitor import uptime_check
 from service_monitor import service_check
 from log_cleanup import cleanup_logs
+from report_generator import generate_report
 
 print("SYSTEM MONITOR")
 
@@ -19,3 +20,5 @@ uptime_check()
 service_check()
 
 cleanup_logs()
+
+generate_report()
