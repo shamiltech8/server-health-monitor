@@ -1,0 +1,15 @@
+
+
+===== HEALTH REPORT =====
+
+CPU Usage     : 7.9%
+Memory Usage  : 62.8%
+Disk Usage    : 17.9%
+Uptime        : 0.9 Hours
+
+
+Services:
+cron : Running
+ssh : Running
+NetworkManager : Running
+

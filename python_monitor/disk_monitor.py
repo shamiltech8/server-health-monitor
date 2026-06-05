@@ -27,3 +27,5 @@ def disk_check():
     else:
         print("Disk Usage is Normal")
         write_log("Disk Usage is Normal")
+
+    return disk_usage

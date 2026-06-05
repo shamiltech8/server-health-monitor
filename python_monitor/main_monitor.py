@@ -9,16 +9,22 @@ from report_generator import generate_report
 print("SYSTEM MONITOR")
 
 
-cpu_check()
+cpu = cpu_check()
 
-memory_check()
+memory = memory_check()
 
-disk_check()
+disk = disk_check()
 
-uptime_check()
+uptime = uptime_check()
 
-service_check()
+services = service_check()
 
 cleanup_logs()
 
-generate_report()
+generate_report(
+    cpu,
+    memory,
+    disk,
+    uptime,
+    services
+)

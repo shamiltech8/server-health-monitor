@@ -1,8 +1,37 @@
-def generate_report():
+from report_writer import save_report
 
-    print("\n===== HEALTH REPORT =====")
+def generate_report(
+    cpu,
+    memory,
+    disk,
+    uptime,
+    services
+):
 
-    print("CPU      : OK")
-    print("Memory   : OK")
-    print("Disk     : OK")
-    print("Services : OK")
+
+    service_report = ""
+
+    for service in services:
+
+        service_report += (
+            service + " : " +
+            services[service] + "\n"
+        )
+
+
+    report = f"""
+
+===== HEALTH REPORT =====
+
+CPU Usage     : {cpu}%
+Memory Usage  : {memory}%
+Disk Usage    : {disk}%
+Uptime        : {uptime} Hours
+
+
+Services:
+{service_report}
+"""
+    print(report)
+
+    save_report(report)

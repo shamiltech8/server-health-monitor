@@ -28,3 +28,5 @@ def memory_check():
     else:
         print("Memory Usage is Normal")
         write_log("Memory Usage is Normal")
+
+    return memory_usage

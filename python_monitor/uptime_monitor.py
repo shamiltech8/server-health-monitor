@@ -12,7 +12,12 @@ def uptime_check():
 
     uptime_seconds = current_time - boot_time
 
-    uptime_hours = uptime_seconds // 3600
+    uptime_hours = round(uptime_seconds / 3600, 2)
 
     print(f"System Uptime: {uptime_hours} Hours")
     write_log(f"System Uptime: {uptime_hours} Hours")
+
+
+    return uptime_hours
+
+

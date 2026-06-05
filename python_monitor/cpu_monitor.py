@@ -28,4 +28,4 @@ def cpu_check():
         write_log("CPU Usage is Normal")
 
 
-
+    return cpu_usage

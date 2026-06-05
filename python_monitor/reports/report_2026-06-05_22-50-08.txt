@@ -1,0 +1,8 @@
+
+
+===== HEALTH REPORT =====
+
+CPU Usage     :10.5%
+Memory Usage  :63.9%
+Disk Usage    :17.9%
+Uptime        :0.0Hours
