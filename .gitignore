@@ -1,4 +1,21 @@
+# Logs
+
 logs/
 *.log
-*.save__pycache__/
+
+# Python cache
+
+**pycache**/
 *.pyc
+
+# Reports
+
+python_monitor/reports/
+
+# Environment variables
+
+python_monitor/.env
+
+# Docker
+
+*.tar
