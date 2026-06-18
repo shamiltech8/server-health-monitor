@@ -1,21 +1,21 @@
 # Logs
-
-logs/
+logs/*
+!logs/.gitkeep
 *.log
 
-# Python cache
-
-**pycache**/
-*.pyc
-
 # Reports
+python_monitor/reports/*
+!python_monitor/reports/.gitkeep
 
-python_monitor/reports/
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Environment variables
-
+# Environment
 python_monitor/.env
 
 # Docker
-
 *.tar
+
+# VS Code
+.vscode/
