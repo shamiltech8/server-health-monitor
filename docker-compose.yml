@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+
+  monitor:
+
+    build:
+      context: ./python_monitor
+
+    container_name: server-health-monitor
+
+    command: python3 main_monitor.py
