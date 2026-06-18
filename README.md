@@ -478,170 +478,119 @@ This project demonstrates practical experience with:
 - Version History
 
 ---
-# 📸 Screenshots
 
-Below are screenshots demonstrating the project in action.
+# 🚀 Future Improvements
 
----
+The following features can be added in future versions of the project:
 
-## 🖥️ Bash Monitor
-
-The Bash monitoring script checks CPU, memory, disk usage, services, internet connectivity, and generates a health report.
-
-![Bash Monitor](screenshots/bash-monitor.png)
-
----
-
-## 🐍 Python Monitor
-
-The Python version provides a modular implementation with logging, configuration support, report generation, and email alert capability.
-
-![Python Monitor](screenshots/python-monitor.png)
+- 🌐 Flask Web Dashboard
+- 📊 Real-time Monitoring Dashboard
+- ☁️ AWS Cloud Deployment
+- ⚙️ GitHub Actions CI/CD Pipeline
+- 📈 Prometheus Integration
+- 📉 Grafana Dashboard
+- ☸️ Kubernetes Deployment
+- 🗄️ Database Storage (SQLite/MySQL/PostgreSQL)
+- 🔔 Slack/Discord Notifications
+- 📱 REST API for Monitoring Data
+- 📅 Scheduled Monitoring using Cron Jobs
+- 📦 Docker Swarm Support
 
 ---
 
-## 🐳 Docker Container
+# 🎯 Learning Outcomes
 
-Running the monitoring application inside a Docker container.
+This project helped me gain hands-on experience in:
 
-![Docker](screenshots/docker-run.png)
-
----
-
-## ⚙️ Docker Compose
-
-Running the project using Docker Compose.
-
-![Docker Compose](screenshots/docker-compose.png)
-
----
-
-## 🌐 GitHub Repository
-
-Project hosted on GitHub with complete source code and documentation.
-
-![GitHub Repository](screenshots/github-repository.png)
-
----
-
-# 🔄 Project Workflow
-
-```text
-                    Server
-
-                       │
-
-         ┌─────────────┼─────────────┐
-
-         │             │             │
-
-      CPU Check    Memory Check   Disk Check
-
-         │             │             │
-
-         └─────────────┼─────────────┘
-
-                       │
-
-                 Uptime Monitor
-
-                       │
-
-                Service Monitoring
-
-                       │
-
-               Internet Connectivity
-
-                       │
-
-                  Logger Module
-
-                       │
-
-             Health Report Generator
-
-                       │
-
-          Automatic Log Cleanup
-
-                       │
-
-          Email Alert (Python Version)
-
-                       │
-
-                 Report Saved
-```
-
----
-
-# 📊 Monitoring Components
-
-| Component | Bash | Python |
-|-----------|:----:|:------:|
-| CPU Monitoring | ✅ | ✅ |
-| Memory Monitoring | ✅ | ✅ |
-| Disk Monitoring | ✅ | ✅ |
-| Uptime Monitoring | ✅ | ✅ |
-| Service Monitoring | ✅ | ✅ |
-| Internet Check | ✅ | ❌ |
-| JSON Configuration | ❌ | ✅ |
-| Logging | Basic | Advanced |
-| Email Alerts | ✅ | ✅ |
-| Docker Support | ❌ | ✅ |
-| Docker Compose | ❌ | ✅ |
-| Automatic Log Cleanup | ✅ | ✅ |
-
----
-
-# 💼 Skills Demonstrated
-
-This project demonstrates practical experience with:
-
-### 🐧 Linux
-
-- Linux Command Line
-- File Permissions
-- Service Management
+- Linux System Administration
+- Bash Scripting
+- Python Programming
+- Object-Oriented Programming
+- System Resource Monitoring
 - Process Monitoring
-
-### 🖥️ Bash
-
-- Shell Scripting
-- Automation
-- Conditional Statements
-- Loops
-- Functions
-
-### 🐍 Python
-
-- Modular Programming
-- System Monitoring
 - File Handling
-- Exception Handling
-- JSON Configuration
-
-### 🐳 Docker
-
-- Docker Images
-- Docker Containers
-- Dockerfile
+- JSON Configuration Management
+- Logging and Report Generation
+- Docker Containerization
 - Docker Compose
-
-### 🔧 DevOps
-
-- Automation
-- Logging
-- Monitoring
-- Configuration Management
-- Version Control
-
-### 🌐 Git & GitHub
-
-- Repository Management
-- Commits
-- Branches
-- Version History
+- Git Version Control
+- GitHub Project Management
+- Automation Techniques
+- DevOps Fundamentals
 
 ---
+
+# 📈 Project Highlights
+
+✔ Developed two independent monitoring solutions using **Bash** and **Python**
+
+✔ Built a modular Python application with reusable components
+
+✔ Generated automated health reports
+
+✔ Implemented logging functionality
+
+✔ Added configurable settings using JSON
+
+✔ Integrated Docker support
+
+✔ Added Docker Compose deployment
+
+✔ Used Git and GitHub for version control
+
+✔ Created complete project documentation
+
+✔ Applied Linux administration concepts
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you have suggestions or improvements:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and distribute this project for educational purposes.
+
+---
+
+# 👨‍💻 Author
+
+## Mohd Shamil
+
+**GitHub**
+
+https://github.com/shamiltech8
+
+---
+
+# ⭐ Support
+
+If you found this project helpful:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+📢 Share it with others
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the open-source community and the Python, Linux, and Docker documentation that helped make this project possible.
+
+---
+
+> **Server Health Monitor** is a practical Linux and DevOps project demonstrating real-world system monitoring, automation, and containerization techniques using Bash, Python, Docker, and Docker Compose.
